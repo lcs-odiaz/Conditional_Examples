@@ -21,6 +21,18 @@ let canvas = Canvas(width: 400, height: 300)
  Fill in the blanks below the comments
  */
 // Loop 4 times, counting up by 100, from 0
+canvas.fillColor = Color.white
+
+
+for h in stride(from: 0, through: 300, by: 100) {
+    let number = random(from: 0, toButNotIncluding: 3)
+    if number == 2{
+        canvas.fillColor = Color.black
+    }
+    canvas.borderColor = Color.black
+    canvas.drawRectangle(centreX: 50+h, centreY: 150, width: 100, height: 100)
+}
+
 
 // Inside the loop, generate a random number (1 or 2)
 

@@ -17,7 +17,7 @@ let hairColour = getRandomHairColour()
 print("The hair colour generated was: \(hairColour)")
 
 if hairColour == "red" {
-    print("My goodness, how handsome!")
+    print("My goodness, look at that boi!")
 }
 
 //: **NOTE:** Output will show up in the Debug area.
